@@ -52,9 +52,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Migrations\202505150049583_InitialCreate.cs" />
-    <Compile Include="Migrations\202505150049583_InitialCreate.Designer.cs">
-      <DependentUpon>202505150049583_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202505152204593_InitialCreate.cs" />
+    <Compile Include="Migrations\202505152204593_InitialCreate.Designer.cs">
+      <DependentUpon>202505152204593_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202505152210114_NewEntities.cs" />
+    <Compile Include="Migrations\202505152210114_NewEntities.Designer.cs">
+      <DependentUpon>202505152210114_NewEntities.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +75,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202505150049583_InitialCreate.resx">
-      <DependentUpon>202505150049583_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202505152204593_InitialCreate.resx">
+      <DependentUpon>202505152204593_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202505152210114_NewEntities.resx">
+      <DependentUpon>202505152210114_NewEntities.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

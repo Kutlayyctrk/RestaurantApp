@@ -13,7 +13,7 @@ namespace RestaurantApp.DAL.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202505150049583_InitialCreate"; }
+            get { return "202505152204593_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source
